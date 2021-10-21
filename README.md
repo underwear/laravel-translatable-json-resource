@@ -56,9 +56,9 @@ use App\Http\Resources\ArticleResource;
 use App\Models\Articles;
 
 Route::get('/articles', function () {
-    $article = Article::all();
+    $articles = Article::all();
     $locale = 'ru';
-    return ArticleResource::collection($article, $locale);
+    return ArticleResource::collection($articles, $locale);
 });
 ```
 
