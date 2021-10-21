@@ -1,0 +1,21 @@
+{
+    "name": "underwear/laravel-translatable-json-resource",
+    "description": "Spatie Laravel translatable + Laravel JsonResource",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Underwear\\LaravelTranslatableJsonResource\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Igor Filippov",
+            "email": "thisfil@ya.ru"
+        }
+    ],
+    "require": {
+        "spatie/laravel-translatable": "~4.0",
+        "laravel/framework": "~8.0"
+    }
+}
