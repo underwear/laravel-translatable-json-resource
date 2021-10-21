@@ -55,9 +55,9 @@ It also works with anonymous collections:
 use App\Http\Resources\ArticleResource;
 use App\Models\Articles;
 
-Route::get('/articles', function ($id) {
+Route::get('/articles', function () {
     $article = Article::all();
-    $locale = 'en';
+    $locale = 'ru';
     return ArticleResource::collection($article, $locale);
 });
 ```
