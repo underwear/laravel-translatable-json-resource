@@ -12,9 +12,9 @@ composer require underwear/laravel-translatable-json-resource
 
 ## Usage
 
-You don't need to worry about things, just keep using JsonResource as you're used to.
-
 Require this package in your project and use `TranslatableJsonResource` instead of `JsonResource`.
+
+You don't need to worry about things, just keep using JsonResource as you're used to.
 
 Have a look:
 
